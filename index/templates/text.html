@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block body %}
+{% with bat=type_list %}
+    {% for x in bat %}
+     <li>{{ x.name }}</li>
+    {% endfor %}
+{% endwith %}
+{% endblock %}
