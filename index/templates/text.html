@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
-{% with bat=type_list %}
-    {% for x in bat %}
+{% with type=type_list %}
+    {% for x in type %}
      <li>{{ x.name }}</li>
     {% endfor %}
 {% endwith %}
