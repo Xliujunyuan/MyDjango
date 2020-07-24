@@ -47,5 +47,5 @@ class ProductList(ListView):
 
 def test(request):
     title = "首页"
-    type_list = [{'name':'小明'},{'name':'小才'},{'name':'年年'}]
+    type_list = [{'name':'小明'},{'name':'小才'},{'name':'年'}]
     return render(request,'text.html',context=locals())

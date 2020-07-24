@@ -1,8 +1,9 @@
+{% load myfilter %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>{{ title|myreplace:'首页:我的第一个首页'}}</title>
 </head>
 <body>
 {% block body %}{% endblock %}
